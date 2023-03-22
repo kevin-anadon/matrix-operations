@@ -1,18 +1,18 @@
-# matrix-operations package
-`matrix-operations` is an npm package that provides matrix operations for any dimension matrix. It provides methods to calculate the determinant using the adjoint and inverse, as well as a method to format a matrix as a string.
+# matx-js
+`matx-js` is an npm package that provides matrix operations for any dimension matrix. It provides methods to calculate the determinant using the adjoint and inverse, as well as a method to format a matrix as a string.
 
 ## Installation
-To use `matrix-operations`, install it via npm:
+To use `matx-js`, install it via npm:
 
 ```
-npm install matrix-operations
+npm install matx-js
 ```
 
 ## Usage
-To use matrix-operations, import it in your code:
+To use matx-js, import it in your code:
 
 ```
-const matrixOps = require('matrix-operations');
+const matrixOps = require('matx-js');
 ```
 
 ### determinant(matrix)
@@ -79,7 +79,7 @@ console.log(formattedMatrix);
 ```
 
 ## File Structure
-The `matrix-operations` package consists of the following files:
+The `matx-js` package consists of the following files:
 
 `adjoint.js`: Contains the code to calculate the adjoint of a matrix.
 `determinant.js`: Contains the code to calculate the determinant of a matrix using the adjoint.
@@ -88,4 +88,4 @@ The `matrix-operations` package consists of the following files:
 `index.js`: The main file that exports the matrix operations functions.
 
 ## Conclusion
-`matrix-operations` provides a simple way to perform matrix operations using JavaScript. It supports matrices of any dimension and includes methods to calculate the determinant using the adjoint and inverse, as well as a method to format a matrix as a string.
+`matx-js` provides a simple way to perform matrix operations using JavaScript. It supports matrices of any dimension and includes methods to calculate the determinant using the adjoint and inverse, as well as a method to format a matrix as a string.
