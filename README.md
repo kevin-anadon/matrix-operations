@@ -1,1 +1,1 @@
-# matrix-operations
+# matrix-operations package
