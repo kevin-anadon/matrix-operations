@@ -1,5 +1,5 @@
-const Fraction = require('@mathematics/fraction');
-const nodeCache = require('node-cache');
+import Fraction from ('@mathematics/fraction');
+import nodeCache from ('node-cache');
 const cache = new nodeCache( {stdTTL: 60, maxKeys: 100} )
 
 const deleteRowElem = (i, matrix = []) => {
@@ -140,9 +140,11 @@ const formatMatrix = (matrix = []) => {
     return matrixString
 }
 
-module.exports = {
-    adjoint,
-    determinant,
-    inverse,
-    formatMatrix
+export default {
+    matrxJS: {
+        adjoint,
+        determinant,
+        inverse,
+        formatMatrix
+    }
 };
