@@ -1,5 +1,5 @@
-import Fraction from 'fraction.js';
-import nodeCache from 'node_cache.min.js';
+import Fraction from './fraction.js';
+import nodeCache from './node_cache.min.js';
 const cache = new nodeCache( {stdTTL: 60, maxKeys: 100} )
 
 const deleteRowElem = (i, matrix = []) => {
