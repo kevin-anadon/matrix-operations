@@ -1,8 +1,7 @@
-const determinant = require('./determinant');
-const adjoint = require('./adjoint');
-const inverse = require('./inverse');
-const formatMatrix = require('./formatMatrix');
-
+const determinant = require('./src/determinant');
+const adjoint = require('./src/adjoint');
+const inverse = require('./src/inverse');
+const formatMatrix = require('./src/formatMatrix');
 module.exports = {
     determinant,
     adjoint,
