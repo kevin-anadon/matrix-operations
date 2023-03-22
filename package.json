@@ -1,6 +1,6 @@
 {
   "name": "matrx-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Javascript library to perform basic matrix operations",
   "main": "index.js",
   "scripts": {
